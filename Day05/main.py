@@ -5,9 +5,6 @@ import re
 pattern = re.compile('(\d*),(\d*) -> (\d*),(\d*)')
 
 
-
-
-
 def find_hor_and_vert(data, task):
     coords = list()
     kind = None
