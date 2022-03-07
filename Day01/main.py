@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def part_one(depth_list):
-    count = 0
+    count    = 0
     for i in range(1, len(depth_list)):
         if depth_list[i] > depth_list[i-1]:
             count += 1
